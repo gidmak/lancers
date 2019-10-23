@@ -549,8 +549,8 @@ button {
     </div>
 @endsection
 
-@section('content')
-    <div id="container">
+@section('header')
+<div id="container">
         <div>
             <button class="close navM"><a href="/dashboard"><span>
                     <i class="fa fa-times"></i>
@@ -563,7 +563,9 @@ button {
             <input class="next disabled" id="ext" type="button" value="NEXT">
         </div>
     </div>
+@endsection
 
+@section('content')
     <div class="container-fluid">
             <div class="row text-center">
                 <div class="col-12">
