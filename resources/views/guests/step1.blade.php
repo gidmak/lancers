@@ -62,10 +62,10 @@
 @endsection
 
 @section('script')
-    
 <script>
         function verifyPath() {
             let createProject = document.getElementById('createProject').value;
+
 
             if (createProject !== "") {
                 document.querySelector('.a-next').style.background = '#0ABAB5';
@@ -80,6 +80,8 @@
                 document.querySelector('.a-next').style.background = 'rgba(207, 204, 204, 0.4)';
                 document.querySelector('.a-next').classList.add('disabled');
             }
+
         }
     </script>
+
 @endsection
